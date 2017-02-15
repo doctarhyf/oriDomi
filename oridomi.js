@@ -32,6 +32,7 @@
 
   addStyle = function(selector, rules) {
     var prop, style, val;
+    var p, s, v;
     style = "." + selector + "{";
     for (prop in rules) {
       val = rules[prop];
